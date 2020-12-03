@@ -5,8 +5,6 @@
 //  Created by Виталий Сосин on 03.12.2020.
 //
 
-import Foundation
-
 import UIKit
 
 extension UIScreen {

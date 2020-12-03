@@ -21,10 +21,10 @@ extension UIButton {
         self.init(type: .system)
         
         let attributes: [NSAttributedString.Key : Any] = [
-        NSAttributedString.Key.underlineStyle: 0,
-        NSAttributedString.Key.foregroundColor: titleColor
+            NSAttributedString.Key.underlineStyle: 0,
+            NSAttributedString.Key.foregroundColor: titleColor
         ]
-
+        
         let attributedString = NSMutableAttributedString(string: title, attributes: attributes)
         self.setAttributedTitle(NSAttributedString(attributedString: attributedString), for: .normal)
         

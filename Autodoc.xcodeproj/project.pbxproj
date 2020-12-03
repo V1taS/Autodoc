@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,12 +13,13 @@
 		1B2B9450257842DB000AD705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2B944E257842DB000AD705 /* LaunchScreen.storyboard */; };
 		1B2B946625784D36000AD705 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B946525784D36000AD705 /* ButtonExtension.swift */; };
 		1B2B946925784DAC000AD705 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B946825784DAC000AD705 /* ColorExtension.swift */; };
-		1B2B946C25784E12000AD705 /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B946B25784E12000AD705 /* LabelExtension.swift */; };
 		1B2B946F25784E53000AD705 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B946E25784E53000AD705 /* FontExtension.swift */; };
-		1B2B947225784E85000AD705 /* StackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B947125784E85000AD705 /* StackViewExtension.swift */; };
-		1B2B94752578504B000AD705 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B94742578504B000AD705 /* AlertExtension.swift */; };
 		1B2B9478257855D2000AD705 /* UIScreenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B9477257855D2000AD705 /* UIScreenExtensions.swift */; };
 		1B2B947B2578572A000AD705 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B947A2578572A000AD705 /* MapViewController.swift */; };
+		1B2B948125785CDB000AD705 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B948025785CDB000AD705 /* Person.swift */; };
+		1B2B948525785DE3000AD705 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B948425785DE3000AD705 /* NetworkManager.swift */; };
+		1B2B948C25787618000AD705 /* gmsDarkStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B2B948B25787618000AD705 /* gmsDarkStyle.json */; };
+		5E266415C0426042E00075A8 /* Pods_Autodoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D83B483F614F78F3E11D792 /* Pods_Autodoc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +31,15 @@
 		1B2B9451257842DB000AD705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B2B946525784D36000AD705 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		1B2B946825784DAC000AD705 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		1B2B946B25784E12000AD705 /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
 		1B2B946E25784E53000AD705 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
-		1B2B947125784E85000AD705 /* StackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewExtension.swift; sourceTree = "<group>"; };
-		1B2B94742578504B000AD705 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
 		1B2B9477257855D2000AD705 /* UIScreenExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtensions.swift; sourceTree = "<group>"; };
 		1B2B947A2578572A000AD705 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1B2B948025785CDB000AD705 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1B2B948425785DE3000AD705 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1B2B948B25787618000AD705 /* gmsDarkStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gmsDarkStyle.json; sourceTree = "<group>"; };
+		230B7943C2815970294A0389 /* Pods-Autodoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autodoc.release.xcconfig"; path = "Target Support Files/Pods-Autodoc/Pods-Autodoc.release.xcconfig"; sourceTree = "<group>"; };
+		2D83B483F614F78F3E11D792 /* Pods_Autodoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autodoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D6B5A56DEF6954FF2A0925 /* Pods-Autodoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autodoc.debug.xcconfig"; path = "Target Support Files/Pods-Autodoc/Pods-Autodoc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E266415C0426042E00075A8 /* Pods_Autodoc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,8 @@
 			children = (
 				1B2B9442257842D9000AD705 /* Autodoc */,
 				1B2B9441257842D9000AD705 /* Products */,
+				CAA8425920ABD58C7E18530B /* Pods */,
+				64DF10E69DD509342BEC3C2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,11 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				1B2B9458257843D8000AD705 /* Model */,
-				1B2B945A25784406000AD705 /* View */,
 				1B2B945B25784416000AD705 /* ViewControllers */,
 				1B2B945E25784475000AD705 /* Resources */,
 				1B2B945F257844B5000AD705 /* Storyboards */,
-				1B2B945D25784458000AD705 /* Network */,
+				1B2B945D25784458000AD705 /* Services */,
 				1B2B945C25784430000AD705 /* Supporting Files */,
 				1B2B946425784C50000AD705 /* Extensions */,
 			);
@@ -83,15 +89,9 @@
 		1B2B9458257843D8000AD705 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B2B948025785CDB000AD705 /* Person.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1B2B945A25784406000AD705 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		1B2B945B25784416000AD705 /* ViewControllers */ = {
@@ -112,16 +112,18 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1B2B945D25784458000AD705 /* Network */ = {
+		1B2B945D25784458000AD705 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1B2B948425785DE3000AD705 /* NetworkManager.swift */,
 			);
-			path = Network;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		1B2B945E25784475000AD705 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1B2B948B25787618000AD705 /* gmsDarkStyle.json */,
 				1B2B944C257842DB000AD705 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -140,13 +142,27 @@
 			children = (
 				1B2B946525784D36000AD705 /* ButtonExtension.swift */,
 				1B2B946825784DAC000AD705 /* ColorExtension.swift */,
-				1B2B946B25784E12000AD705 /* LabelExtension.swift */,
 				1B2B946E25784E53000AD705 /* FontExtension.swift */,
-				1B2B947125784E85000AD705 /* StackViewExtension.swift */,
-				1B2B94742578504B000AD705 /* AlertExtension.swift */,
 				1B2B9477257855D2000AD705 /* UIScreenExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64DF10E69DD509342BEC3C2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D83B483F614F78F3E11D792 /* Pods_Autodoc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA8425920ABD58C7E18530B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98D6B5A56DEF6954FF2A0925 /* Pods-Autodoc.debug.xcconfig */,
+				230B7943C2815970294A0389 /* Pods-Autodoc.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B2B9454257842DB000AD705 /* Build configuration list for PBXNativeTarget "Autodoc" */;
 			buildPhases = (
+				69014D2C8BBB8BFD1F558C00 /* [CP] Check Pods Manifest.lock */,
 				1B2B943C257842D9000AD705 /* Sources */,
 				1B2B943D257842D9000AD705 /* Frameworks */,
 				1B2B943E257842D9000AD705 /* Resources */,
+				C0DAFD752D940422600E3F95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,24 +226,66 @@
 			files = (
 				1B2B9450257842DB000AD705 /* LaunchScreen.storyboard in Resources */,
 				1B2B944D257842DB000AD705 /* Assets.xcassets in Resources */,
+				1B2B948C25787618000AD705 /* gmsDarkStyle.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69014D2C8BBB8BFD1F558C00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Autodoc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0DAFD752D940422600E3F95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Autodoc/Pods-Autodoc-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Autodoc/Pods-Autodoc-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Autodoc/Pods-Autodoc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B2B943C257842D9000AD705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2B948525785DE3000AD705 /* NetworkManager.swift in Sources */,
 				1B2B946F25784E53000AD705 /* FontExtension.swift in Sources */,
 				1B2B946625784D36000AD705 /* ButtonExtension.swift in Sources */,
-				1B2B946C25784E12000AD705 /* LabelExtension.swift in Sources */,
 				1B2B947B2578572A000AD705 /* MapViewController.swift in Sources */,
+				1B2B948125785CDB000AD705 /* Person.swift in Sources */,
 				1B2B9448257842D9000AD705 /* MainViewController.swift in Sources */,
-				1B2B94752578504B000AD705 /* AlertExtension.swift in Sources */,
 				1B2B9444257842D9000AD705 /* AppDelegate.swift in Sources */,
-				1B2B947225784E85000AD705 /* StackViewExtension.swift in Sources */,
 				1B2B946925784DAC000AD705 /* ColorExtension.swift in Sources */,
 				1B2B9478257855D2000AD705 /* UIScreenExtensions.swift in Sources */,
 			);
@@ -363,6 +423,7 @@
 		};
 		1B2B9455257842DB000AD705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D6B5A56DEF6954FF2A0925 /* Pods-Autodoc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -383,6 +444,7 @@
 		};
 		1B2B9456257842DB000AD705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230B7943C2815970294A0389 /* Pods-Autodoc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

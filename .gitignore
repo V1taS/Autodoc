@@ -1,0 +1,40 @@
+# Xcode
+
+Swift.gitignore
+
+## OS X
+
+*.DS_Store
+.DS_Store
+
+## Build generated
+
+build/
+DerivedData/
+Build
+Index
+
+## Various settings
+
+## Other
+
+## Obj-C/Swift specific
+
+*.hmap
+*.ipa
+
+## Playgrounds
+
+playground.xcworkspace
+
+# Swift Package Manager
+
+.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+
+
+# fastlane
